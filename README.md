@@ -24,6 +24,11 @@ Projet collaboratif mené en méthode Agile/Scrum dans le cadre du BTS SIO optio
 | Prénom Nom | Pseudo GitHub | Scrum Master au sprint |
 |---|---|---|
 | _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-01_ |
+| _Content_ | _contentehigiator_ | _content S1-02_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-03_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-04_ |
+| _théo soler_ | _theoslr_ | _theo S1-05_ |
+
 
 ---
 
