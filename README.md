@@ -28,6 +28,7 @@ Projet collaboratif mené en méthode Agile/Scrum dans le cadre du BTS SIO optio
 | _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-03_ |
 | _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-04_ |
 | _théo soler_ | _theoslr_ | _theo S1-05_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S2-01_ |
 
 
 ---
