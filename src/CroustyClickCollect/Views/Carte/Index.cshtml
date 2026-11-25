@@ -41,13 +41,15 @@ else
                                             Views/Cuisine/Index.cshtml affiche la sauce seulement si elle existe. *@
                         </td>
                         <td>@produit.Categorie</td>
-                        <td class="text-end">
+                       
                             @* TODO S1-04 (sprint 1) : afficher le prix du produit.
                                  Consigne : afficher le prix avec 2 chiffres après la virgule,
                                             suivi du symbole € (exemple : 9,00 €).
                                  Indice   : @produit.Libelle affiche le nom, juste au-dessus ;
                                             pour le format, cherchez ToString("0.00"). *@
-                        </td>
+                        <td class="text-end">
+                            @produit.Prix.ToString("0.00") €
+                            </td>
                         <td>
                             @* Formulaire « Ajouter au panier » : il envoie l'id du produit,
                                la sauce et la quantité à PanierController.Ajouter (en POST). *@
