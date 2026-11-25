@@ -49,8 +49,6 @@ Deux façons de travailler. Choisissez **l'une ou l'autre**.
 | À installer | SDK .NET 10, Visual Studio 2026 (ou VS Code + extension *C# Dev Kit*), XAMPP, Git | Rien : un compte GitHub suffit |
 | Base de données | MariaDB de XAMPP | Préparée automatiquement |
 
-Pour vérifier que .NET est bien là, ouvrez un terminal et tapez `dotnet --version` : le résultat doit commencer par `10.`
-
 ---
 
 ## Installation sur un poste du lycée
