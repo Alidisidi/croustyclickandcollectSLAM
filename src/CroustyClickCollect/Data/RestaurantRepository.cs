@@ -15,13 +15,14 @@ public class RestaurantRepository
         _bdd = bdd;
     }
 
-    public List<Restaurant> GetTous()
-    {
-        // TODO S2-01 (sprint 2) : lire tous les restaurants, triés par nom.
-        //   Consigne : renvoyer la liste des restaurants avec toutes leurs informations.
-        //   Indice   : même principe que ProduitRepository.GetSauces().
-        return new List<Restaurant>();
-    }
+  public List<Restaurant> GetTous()
+{
+    using var connexion = _bdd.CreerConnexion();
+    string sql = "SELECT * FROM restaurant ORDER BY nom";
+    return connexion.Query<Restaurant>(sql).ToList();
+}
+
+// EXEMPLE COMPLET : lire UN restaurant à partir de son identifiant.
 
     // EXEMPLE COMPLET : lire UN restaurant à partir de son identifiant.
     public Restaurant GetParId(int id)
