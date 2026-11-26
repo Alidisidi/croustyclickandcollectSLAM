@@ -18,20 +18,17 @@ public class RestaurantsController : Controller
     }
 
     // Adresse : /Restaurants
-    public IActionResult Index()
-    {
-        List<Restaurant> restaurants = _restaurants.GetTous();
+   public IActionResult Index()
+{
+    List<Restaurant> restaurants = _restaurants.GetTous();
 
-       TimeSpan maintenant = DateTime.Now.TimeOfDay;
-
-
-    DateTime maintenant = DateTime.Now;
+    TimeSpan maintenant = DateTime.Now.TimeOfDay;
 
     foreach (Restaurant restaurant in restaurants)
     {
-       restaurant.EstOuvertMaintenant = HorairesService.EstOuvert(
+        restaurant.EstOuvertMaintenant = HorairesService.EstOuvert(
             restaurant.HeureOuverture, restaurant.HeureFermeture, maintenant);
     }
-        return View(restaurants);
-    }
+
+    return View(restaurants);
 }
