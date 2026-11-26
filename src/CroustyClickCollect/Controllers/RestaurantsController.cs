@@ -32,3 +32,4 @@ public class RestaurantsController : Controller
 
     return View(restaurants);
 }
+}
