@@ -29,7 +29,6 @@ public class RestaurantsController : Controller
         restaurant.EstOuvertMaintenant = HorairesService.EstOuvert(
             restaurant.HeureOuverture, restaurant.HeureFermeture, maintenant);
     }
-
     return View(restaurants);
 }
 }
